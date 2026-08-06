@@ -2,6 +2,7 @@
 using namespace std;
 
  int add(int input1,int input2){
+         cout<<"Addition of the Numbers is :";
         return input1+input2;
 }
 
