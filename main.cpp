@@ -13,6 +13,10 @@ int mul(int input1 ,int input2){
     cout<<"Multiplication of the Numbers is :";
     return input1*input2;
 }
+int division(int input1 ,int input2){
+    return input1/input2;
+}
+
 int main(){
     cout<<"Calculator  Application";
 
@@ -37,7 +41,10 @@ int main(){
             cout<<mul(input1,input2);
             break;
         case 4:
-           
+            if(input2==0){
+                cout<<"Invalid Input";
+            } 
+            cout<<division(input1,input2);
             break; 
         default:
             cout<<"Wrong choice select the correct choice ";       
