@@ -9,6 +9,9 @@ using namespace std;
         return input1-input2;
 }
 
+int mul(int input1 ,int input2){
+    return input1*input2;
+}
 int main(){
     cout<<"Calculator  Application";
 
@@ -30,6 +33,7 @@ int main(){
             cout<<sub(input1,input2);
             break;
         case 3:
+            cout<<mul(input1,input2);
             break;
         case 4:
            
