@@ -19,6 +19,7 @@ int main(){
           
             break;
         case 2:
+
             break;
         case 3:
             break;
@@ -26,7 +27,7 @@ int main(){
            
             break; 
         default:
-            cout<<"Wrong choice";       
+            cout<<"Wrong choice select the correct choice ";       
     }
 
 
