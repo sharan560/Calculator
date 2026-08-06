@@ -1,6 +1,10 @@
 # include <bits/stdc++.h>
 using namespace std;
 
+ int add(int input1,int input2){
+        return input1+input2;
+}
+
 int main(){
     cout<<"Calculator  Application";
 
@@ -16,7 +20,7 @@ int main(){
 
     switch(choice){
         case 1:
-          
+            cout<<add(input1,input2);
             break;
         case 2:
             
@@ -29,6 +33,8 @@ int main(){
         default:
             cout<<"Wrong choice";       
     }
+
+   
 
 
 
