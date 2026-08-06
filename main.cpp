@@ -10,7 +10,11 @@ using namespace std;
 }
 
 int mul(int input1 ,int input2){
-    return input1*input2;
+    int ans=0;
+    for(int i=0;i<input1;i++){
+        ans+=input1;
+    }
+    return ans;
 }
 int main(){
     cout<<"Calculator  Application";
