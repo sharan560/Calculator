@@ -10,6 +10,7 @@ using namespace std;
 }
 
 int mul(int input1 ,int input2){
+    cout<<"Multiplication of the Numbers is :";
     return input1*input2;
 }
 int main(){
