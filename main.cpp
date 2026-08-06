@@ -16,6 +16,7 @@ int mul(int input1 ,int input2){
     return input1*input2;
 }
 int division(int input1 ,int input2){
+    cout<<"Division of the Numbers is :";
     return input1/input2;
 }
 
