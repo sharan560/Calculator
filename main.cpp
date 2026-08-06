@@ -6,6 +6,7 @@ using namespace std;
 }
 
  int sub(int input1,int input2){
+    cout<<"Subraction of two Number is :";
         return input1-input2;
 }
 
